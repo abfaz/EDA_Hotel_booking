@@ -1,8 +1,10 @@
 # EDA_Hotel_booking
 
+
 ## Objective
 A dataset containing 119390 records across 32 features has been given with information regarding bookings of two hotels from July 2015 to August 2017. These two hotels are City Hotel and Resort Hotel.
 The main objective behind this project is to explore and analyze data to discover important factors that govern the bookings and give insights to hotel management.
+
 
 ## Dataset
 The dataset consist of following columns (features):
@@ -43,6 +45,7 @@ The dataset consist of following columns (features):
 - reservation_status_date: Date of making reservation status.
 ```
 
+
 ## Data Cleaning and Feature Engineering
 
 ### (1) Removing Duplicate rows
@@ -67,6 +70,7 @@ All duplicate rows were dropped.
 
 ### (5) Category columns like hotel, meal, country, etc has been stored into variable cat_cols and Numeric columns is stored into variable num_cols for EDA.
 
+
 ## Exploratory Data Analysis
 
 EDA was carried out in 3 steps:
@@ -90,8 +94,11 @@ Q10: Which distribution channel has highest booking cancellation rate?
 Q11: Which is the most visiting month?
 Q12: Which month produces highest adr?
 
+
+
 ### Correlation Analysis
 It is used to measure the strength of the linear relationship between two variables and compute their association. Correlation analysis calculates the level of change in one variable due to the change in the other. Correlation analysis of the dataset was carried out using a correlation heatmap with the non categorical or Numerical columns like lead time, arrival_date_year, etc.
+
 
 
 ## Conclusion
