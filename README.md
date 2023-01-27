@@ -1,4 +1,4 @@
-# EDA_Hotel_booking
+# EDA_Hotel_Booking
 
 
 ## Objective
